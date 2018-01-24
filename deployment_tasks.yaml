@@ -1,0 +1,10 @@
+- id: override-region
+  type: puppet
+  version: 2.0.0
+  requires: [setup_repositories]
+  required_for: [tools]
+  role: ['/.*/']
+  parameters:
+    puppet_manifest: "puppet/manifests/override-region.pp"
+    puppet_modules: "puppet/modules:/etc/puppet/modules"
+    timeout: 120

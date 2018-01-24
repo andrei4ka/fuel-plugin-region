@@ -1,0 +1,8 @@
+.tox
+.build
+*.pyc
+*.noarch.rpm
+.idea
+*.sha1
+Release
+Packages.gz

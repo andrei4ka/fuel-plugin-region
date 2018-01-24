@@ -1,0 +1,7 @@
+attributes:
+  region_region:
+    label: "Please enter region name to override"
+    description: "Region name"
+    value: "RegionTwo"
+    weight: 10
+    type: "text"
